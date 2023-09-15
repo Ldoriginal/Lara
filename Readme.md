@@ -1,4 +1,4 @@
-Algoritmo "Lanchonete: Lara Vasconcelos"
+Algoritmo "Lanchonete: Lara Vasconcelos 2"
 
 Var
 opcao, total, valor: Real
