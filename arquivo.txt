@@ -1,0 +1,42 @@
+programa{
+  funcao inicio() {
+    real Total = 0.00
+    inteiro Opcao
+    faca{
+      escreva("\n\nLanchonete Rique\n")
+      escreva("  1 -> X-Salada R$ 20.00 \n")
+      escreva("  2 -> X-Bacon R$ 25.00 \n")
+      escreva("  3 -> X-Egg R$ 15.00\n")
+      escreva("  4 -> Refrigerante R$ 5.00 \n")
+      escreva("  5 -> Finalizar Pedido\n")
+      escreva("\nDigite seu Pedido: ")
+     
+      leia(Opcao)
+      escolha (Opcao) {
+     
+        caso 1:
+          Total=Total+20.00
+        pare
+       
+        caso 2:
+          Total=Total+25.00
+        pare
+       
+        caso 3:
+          Total=Total+15.00
+
+        caso 4:
+          Total=Total+5.00
+        pare
+       
+        caso 5:
+          escreva("Obrigado pela presença, no total, seu pedido foi de: R$", Total)
+        pare
+       
+        caso contrario:
+        escreva ("Voce digiou um número incorreto\n\n")
+      }      
+    }enquanto(Total != 5)
+  }
+}
+//henrique 2°2
